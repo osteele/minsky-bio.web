@@ -388,7 +388,7 @@ autoprefixer@^6.0.2, autoprefixer@^6.3.1:
     postcss "^5.2.16"
     postcss-value-parser "^3.2.3"
 
-autoprefixer@^7.1.2, autoprefixer@^7.1.5:
+autoprefixer@^7.1.2, autoprefixer@^7.2.3:
   version "7.2.3"
   resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-7.2.3.tgz#c2841e38b7940c2d0a9bbffd72c75f33637854f8"
   dependencies:
@@ -3209,7 +3209,7 @@ escodegen@~1.2.0:
   optionalDependencies:
     source-map "~0.1.30"
 
-eslint-plugin-react@^7.4.0:
+eslint-plugin-react@^7.5.1:
   version "7.5.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.5.1.tgz#52e56e8d80c810de158859ef07b880d2f56ee30b"
   dependencies:
@@ -3229,7 +3229,7 @@ eslint-visitor-keys@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
 
-eslint@^4.9.0:
+eslint@^4.14.0:
   version "4.14.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-4.14.0.tgz#96609768d1dd23304faba2d94b7fefe5a5447a82"
   dependencies:
@@ -3984,14 +3984,14 @@ gatsby-cli@^1.1.28:
     yargs "^8.0.2"
     yurnalist "^0.2.1"
 
-gatsby-image@^1.0.16:
+gatsby-image@^1.0.31:
   version "1.0.31"
   resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-1.0.31.tgz#7f5c1ad428bfb0773736d4c2b353dd9d7dfcc6cd"
   dependencies:
     babel-runtime "^6.26.0"
     prop-types "^15.6.0"
 
-gatsby-link@^1.6.23, gatsby-link@^1.6.30:
+gatsby-link@^1.6.30, gatsby-link@^1.6.32:
   version "1.6.32"
   resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-1.6.32.tgz#49114e5fc649f274254953e06bfaafebb296ccb8"
   dependencies:
@@ -4006,19 +4006,19 @@ gatsby-module-loader@^1.0.9:
     babel-runtime "^6.26.0"
     loader-utils "^0.2.16"
 
-gatsby-plugin-catch-links@^1.0.9:
+gatsby-plugin-catch-links@^1.0.14:
   version "1.0.14"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-catch-links/-/gatsby-plugin-catch-links-1.0.14.tgz#e003f51dac46225eccff1ec9daca0ee64e7d4fe5"
   dependencies:
     babel-runtime "^6.26.0"
 
-gatsby-plugin-google-analytics@^1.0.10:
+gatsby-plugin-google-analytics@^1.0.14:
   version "1.0.14"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-1.0.14.tgz#21fed8b4cbb13f5a638d35024e72dd3dd7e74051"
   dependencies:
     babel-runtime "^6.26.0"
 
-gatsby-plugin-lodash@^1.0.4:
+gatsby-plugin-lodash@^1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-lodash/-/gatsby-plugin-lodash-1.0.7.tgz#ec0a46140046aa233e1266de4a83df6c9d5c461e"
   dependencies:
@@ -4027,28 +4027,28 @@ gatsby-plugin-lodash@^1.0.4:
     lodash "^4.17.4"
     lodash-webpack-plugin "^0.11.4"
 
-gatsby-plugin-manifest@^1.0.8:
+gatsby-plugin-manifest@^1.0.12:
   version "1.0.12"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-1.0.12.tgz#52341f1b1b7bb7b3ac00227e2ccb2659364f0151"
   dependencies:
     babel-runtime "^6.26.0"
     bluebird "^3.5.0"
 
-gatsby-plugin-nprogress@^1.0.7:
+gatsby-plugin-nprogress@^1.0.9:
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-nprogress/-/gatsby-plugin-nprogress-1.0.9.tgz#5d93af3e4fd6809c7df5676faf7a478a027e6e8b"
   dependencies:
     babel-runtime "^6.26.0"
     nprogress "^0.2.0"
 
-gatsby-plugin-offline@^1.0.10:
+gatsby-plugin-offline@^1.0.12:
   version "1.0.12"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-1.0.12.tgz#b56309bb13e545d19181e75d7d35167946a6048d"
   dependencies:
     babel-runtime "^6.26.0"
     sw-precache "^5.0.0"
 
-gatsby-plugin-postcss-sass@^1.0.12:
+gatsby-plugin-postcss-sass@^1.0.15:
   version "1.0.15"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-postcss-sass/-/gatsby-plugin-postcss-sass-1.0.15.tgz#c351f4628b7de997c4c4152eb6fbaa31b334d027"
   dependencies:
@@ -4058,14 +4058,13 @@ gatsby-plugin-postcss-sass@^1.0.12:
     node-sass "^4.5.2"
     sass-loader "^4.1.1"
 
-gatsby-plugin-react-helmet@^1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-1.0.8.tgz#1adf87229cd54f11c95bb16b25e3cc5f20fee871"
+gatsby-plugin-react-helmet@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-2.0.3.tgz#65973894ed54200bc271c6368f34f4c35eb48dd6"
   dependencies:
     babel-runtime "^6.26.0"
-    react-helmet "^5.1.3"
 
-gatsby-plugin-sharp@^1.6.13, gatsby-plugin-sharp@^1.6.24:
+gatsby-plugin-sharp@^1.6.24:
   version "1.6.24"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-1.6.24.tgz#f885a384b222f655534e45788a99863a038bf107"
   dependencies:
@@ -4082,7 +4081,7 @@ gatsby-plugin-sharp@^1.6.13, gatsby-plugin-sharp@^1.6.24:
     sharp "^0.17.3"
     svgo "^0.7.2"
 
-gatsby-plugin-sitemap@^1.2.5:
+gatsby-plugin-sitemap@^1.2.9:
   version "1.2.9"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sitemap/-/gatsby-plugin-sitemap-1.2.9.tgz#e612e0f7df9edb4c94d931049d454610343bcdbb"
   dependencies:
@@ -4105,15 +4104,16 @@ gatsby-react-router-scroll@^1.0.7:
     scroll-behavior "^0.9.1"
     warning "^3.0.0"
 
-gatsby-remark-external-links@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-external-links/-/gatsby-remark-external-links-0.0.3.tgz#2c9f3b586d874357dc7b84d3215056d8ff5440ce"
+gatsby-remark-external-links@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-external-links/-/gatsby-remark-external-links-0.0.4.tgz#85b98c1e9dacfaa58085319648c904ff3cab42f0"
   dependencies:
     babel-runtime "^6.26.0"
     is-relative-url "^2.0.0"
+    unist-util-find "^1.0.1"
     unist-util-visit "^1.1.3"
 
-gatsby-remark-images@^1.5.24:
+gatsby-remark-images@^1.5.36:
   version "1.5.36"
   resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-1.5.36.tgz#12920b1c1969d519befd4c661201c28e30a896a8"
   dependencies:
@@ -4125,7 +4125,7 @@ gatsby-remark-images@^1.5.24:
     slash "^1.0.0"
     unist-util-select "^1.5.0"
 
-gatsby-remark-responsive-iframe@^1.4.13:
+gatsby-remark-responsive-iframe@^1.4.16:
   version "1.4.16"
   resolved "https://registry.yarnpkg.com/gatsby-remark-responsive-iframe/-/gatsby-remark-responsive-iframe-1.4.16.tgz#38efb84a4b6f0f9704afb45970bf8b8a7668c446"
   dependencies:
@@ -4135,7 +4135,7 @@ gatsby-remark-responsive-iframe@^1.4.13:
     lodash "^4.17.4"
     unist-util-visit "^1.1.1"
 
-gatsby-source-filesystem@^1.5.5:
+gatsby-source-filesystem@^1.5.11:
   version "1.5.11"
   resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-1.5.11.tgz#bc2f9bdcc71212df42d45ae0b8adc7e37540b599"
   dependencies:
@@ -4151,7 +4151,7 @@ gatsby-source-filesystem@^1.5.5:
     slash "^1.0.0"
     valid-url "^1.0.9"
 
-gatsby-transformer-remark@^1.7.17:
+gatsby-transformer-remark@^1.7.26:
   version "1.7.26"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-1.7.26.tgz#58c273517b6039489b183fc4194ad07ee46e71ff"
   dependencies:
@@ -4173,7 +4173,7 @@ gatsby-transformer-remark@^1.7.17:
     unist-util-select "^1.5.0"
     unist-util-visit "^1.1.1"
 
-gatsby-transformer-sharp@^1.6.13:
+gatsby-transformer-sharp@^1.6.16:
   version "1.6.16"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-1.6.16.tgz#16464dcfbb2099f49805b2e244da0b3fea63b88e"
   dependencies:
@@ -4182,7 +4182,7 @@ gatsby-transformer-sharp@^1.6.13:
     fs-extra "^4.0.2"
     image-size "^0.6.0"
 
-gatsby@^1.9.80:
+gatsby@^1.9.149:
   version "1.9.149"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-1.9.149.tgz#4c0f776b634a8c291254abedae22e6265bfbcde4"
   dependencies:
@@ -6151,6 +6151,10 @@ lodash.isnumber@^3.0.0:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/lodash.isnumber/-/lodash.isnumber-3.0.3.tgz#3ce76810c5928d03352301ac287317f11c0b1ffc"
 
+lodash.iteratee@^4.5.0:
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/lodash.iteratee/-/lodash.iteratee-4.7.0.tgz#be4177db289a8ccc3c0990f1db26b5b22fc1554c"
+
 lodash.keys@^3.0.0, lodash.keys@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/lodash.keys/-/lodash.keys-3.1.2.tgz#4dbc0472b156be50a0b286855d1bd0b0c656098a"
@@ -6280,6 +6284,10 @@ logalot@^2.0.0:
     figures "^1.3.5"
     squeak "^1.0.0"
 
+longest-streak@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/longest-streak/-/longest-streak-1.0.0.tgz#d06597c4d4c31b52ccb1f5d8f8fe7148eafd6965"
+
 longest-streak@^2.0.1:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/longest-streak/-/longest-streak-2.0.2.tgz#2421b6ba939a443bb9ffebf596585a50b4c38e2e"
@@ -6377,6 +6385,10 @@ map-visit@^1.0.0:
 markdown-escapes@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/markdown-escapes/-/markdown-escapes-1.0.1.tgz#1994df2d3af4811de59a6714934c2b2292734518"
+
+markdown-table@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/markdown-table/-/markdown-table-0.4.0.tgz#890c2c1b3bfe83fb00e4129b8e4cfe645270f9d1"
 
 markdown-table@^1.1.0:
   version "1.1.1"
@@ -8180,20 +8192,13 @@ postcss-selector-parser@^2.0.0, postcss-selector-parser@^2.2.0, postcss-selector
     indexes-of "^1.0.1"
     uniq "^1.0.1"
 
-postcss-selector-parser@^3.1.0, postcss-selector-parser@^3.1.1:
+postcss-selector-parser@^3.1.0:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-3.1.1.tgz#4f875f4afb0c96573d5cf4d74011aee250a7e865"
   dependencies:
     dot-prop "^4.1.1"
     indexes-of "^1.0.1"
     uniq "^1.0.1"
-
-postcss-sorting@^3.0.1:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/postcss-sorting/-/postcss-sorting-3.1.0.tgz#af7c90ee73ad12569a57664eaf06735c2e25bec0"
-  dependencies:
-    lodash "^4.17.4"
-    postcss "^6.0.13"
 
 postcss-svgo@^2.1.1:
   version "2.1.6"
@@ -8245,7 +8250,7 @@ postcss@^5.0.0, postcss@^5.0.10, postcss@^5.0.11, postcss@^5.0.12, postcss@^5.0.
     source-map "^0.5.6"
     supports-color "^3.2.3"
 
-postcss@^6.0.0, postcss@^6.0.1, postcss@^6.0.13, postcss@^6.0.14, postcss@^6.0.3, postcss@^6.0.6, postcss@^6.0.7, postcss@^6.0.8:
+postcss@^6.0.0, postcss@^6.0.1, postcss@^6.0.14, postcss@^6.0.3, postcss@^6.0.6, postcss@^6.0.7, postcss@^6.0.8:
   version "6.0.14"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-6.0.14.tgz#5534c72114739e75d0afcf017db853099f562885"
   dependencies:
@@ -8271,7 +8276,7 @@ preserve@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
 
-prettier@^1.7.4:
+prettier@^1.9.2:
   version "1.9.2"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.9.2.tgz#96bc2132f7a32338e6078aeb29727178c6335827"
 
@@ -8486,7 +8491,7 @@ rc@^1.0.1, rc@^1.1.2, rc@^1.1.6, rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-burger-menu@^2.1.9:
+react-burger-menu@^2.1.11:
   version "2.1.11"
   resolved "https://registry.yarnpkg.com/react-burger-menu/-/react-burger-menu-2.1.11.tgz#3fad92a2edefb10da8a5e8db675f0fec7bd1e4c8"
   dependencies:
@@ -8544,7 +8549,7 @@ react-headroom@^2.2.2:
     raf "^3.3.0"
     shallowequal "^0.2.2"
 
-react-helmet@^5.1.3:
+react-helmet@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/react-helmet/-/react-helmet-5.2.0.tgz#a81811df21313a6d55c5f058c4aeba5d6f3d97a7"
   dependencies:
@@ -8573,7 +8578,7 @@ react-icons@^2.2.7:
   dependencies:
     react-icon-base "2.1.0"
 
-react-palette@^0.1.2:
+react-palette@^0.1.3:
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/react-palette/-/react-palette-0.1.3.tgz#67f3c70f07178d93f7faa120aa989d537e5bba93"
   dependencies:
@@ -8586,7 +8591,7 @@ react-proxy@^3.0.0-alpha.0:
   dependencies:
     lodash "^4.6.1"
 
-react-reveal@^0.7.2:
+react-reveal@^0.7.3:
   version "0.7.3"
   resolved "https://registry.yarnpkg.com/react-reveal/-/react-reveal-0.7.3.tgz#4b7265b48251813acf735ab862d1687ad85d4570"
   dependencies:
@@ -8927,6 +8932,20 @@ relay-runtime@1.4.1:
     fbjs "^0.8.14"
     relay-debugger-react-native-runtime "0.0.10"
 
+remark-parse@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/remark-parse/-/remark-parse-1.1.0.tgz#c3ca10f9a8da04615c28f09aa4e304510526ec21"
+  dependencies:
+    collapse-white-space "^1.0.0"
+    extend "^3.0.0"
+    parse-entities "^1.0.2"
+    repeat-string "^1.5.4"
+    trim "0.0.1"
+    trim-trailing-lines "^1.0.0"
+    unherit "^1.0.4"
+    unist-util-remove-position "^1.0.0"
+    vfile-location "^2.0.0"
+
 remark-parse@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/remark-parse/-/remark-parse-3.0.1.tgz#1b9f841a44d8f4fbf2246850265459a4eb354c80"
@@ -8974,6 +8993,19 @@ remark-retext@^3.1.0:
   dependencies:
     mdast-util-to-nlcst "^3.2.0"
 
+remark-stringify@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/remark-stringify/-/remark-stringify-1.1.0.tgz#a7105e25b9ee2bf9a49b75d2c423f11b06ae2092"
+  dependencies:
+    ccount "^1.0.0"
+    extend "^3.0.0"
+    longest-streak "^1.0.0"
+    markdown-table "^0.4.0"
+    parse-entities "^1.0.2"
+    repeat-string "^1.5.4"
+    stringify-entities "^1.0.1"
+    unherit "^1.0.4"
+
 remark-stringify@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/remark-stringify/-/remark-stringify-3.0.1.tgz#79242bebe0a752081b5809516fa0c06edec069cf"
@@ -9011,6 +9043,14 @@ remark-stringify@^4.0.0:
     stringify-entities "^1.0.1"
     unherit "^1.0.4"
     xtend "^4.0.1"
+
+remark@^5.0.1:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/remark/-/remark-5.1.0.tgz#cb463bd3dbcb4b99794935eee1cf71d7a8e3068c"
+  dependencies:
+    remark-parse "^1.1.0"
+    remark-stringify "^1.1.0"
+    unified "^4.1.1"
 
 remark@^7.0.1:
   version "7.0.1"
@@ -10201,33 +10241,11 @@ style-search@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/style-search/-/style-search-0.1.0.tgz#7958c793e47e32e07d2b5cafe5c0bf8e12e77902"
 
-stylelint-config-sass-guidelines@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-sass-guidelines/-/stylelint-config-sass-guidelines-3.1.0.tgz#4f447175050b9e27cb0b9d926e9f4775db9a379b"
-  dependencies:
-    stylelint-order "^0.6.0"
-    stylelint-scss "^2.0.0"
+stylelint-config-sass-guidelines@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/stylelint-config-sass-guidelines/-/stylelint-config-sass-guidelines-4.0.1.tgz#c64f353e07575ad06f6405d6dd902066aa5bc8c4"
 
-stylelint-order@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-0.6.0.tgz#72222be0c64d8782b2fc237d0d9ac974039f968b"
-  dependencies:
-    lodash "^4.17.4"
-    postcss "^6.0.7"
-    postcss-sorting "^3.0.1"
-    stylelint "^8.0.0"
-
-stylelint-scss@^2.0.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-2.2.0.tgz#3e324bf13346db7af21cd24ad57fe3202f7c3823"
-  dependencies:
-    lodash "^4.17.4"
-    postcss-media-query-parser "^0.2.3"
-    postcss-resolve-nested-selector "^0.1.1"
-    postcss-selector-parser "^3.1.1"
-    postcss-value-parser "^3.3.0"
-
-stylelint@^8.0.0, stylelint@^8.2.0:
+stylelint@^8.4.0:
   version "8.4.0"
   resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-8.4.0.tgz#c2dbaeb17236917819f9206e1c0df5fddf6f83c3"
   dependencies:
@@ -10740,6 +10758,17 @@ unherit@^1.0.4:
     inherits "^2.0.1"
     xtend "^4.0.1"
 
+unified@^4.1.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/unified/-/unified-4.2.1.tgz#76ff43aa8da430f6e7e4a55c84ebac2ad2cfcd2e"
+  dependencies:
+    bail "^1.0.0"
+    extend "^3.0.0"
+    has "^1.0.1"
+    once "^1.3.3"
+    trough "^1.0.0"
+    vfile "^1.0.0"
+
 unified@^6.0.0, unified@^6.1.5:
   version "6.1.6"
   resolved "https://registry.yarnpkg.com/unified/-/unified-6.1.6.tgz#5ea7f807a0898f1f8acdeefe5f25faa010cc42b1"
@@ -10799,6 +10828,14 @@ unist-util-find-all-after@^1.0.1:
   resolved "https://registry.yarnpkg.com/unist-util-find-all-after/-/unist-util-find-all-after-1.0.1.tgz#4e5512abfef7e0616781aecf7b1ed751c00af908"
   dependencies:
     unist-util-is "^2.0.0"
+
+unist-util-find@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/unist-util-find/-/unist-util-find-1.0.1.tgz#1062bbb6928c7a97c6adc89b53745d4c46c222a2"
+  dependencies:
+    lodash.iteratee "^4.5.0"
+    remark "^5.0.1"
+    unist-util-visit "^1.1.0"
 
 unist-util-generated@^1.1.0:
   version "1.1.1"
@@ -11055,6 +11092,10 @@ vfile-message@^1.0.0:
   resolved "https://registry.yarnpkg.com/vfile-message/-/vfile-message-1.0.0.tgz#a6adb0474ea400fa25d929f1d673abea6a17e359"
   dependencies:
     unist-util-stringify-position "^1.1.1"
+
+vfile@^1.0.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/vfile/-/vfile-1.4.0.tgz#c0fd6fa484f8debdb771f68c31ed75d88da97fe7"
 
 vfile@^2.0.0:
   version "2.3.0"
