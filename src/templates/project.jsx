@@ -98,7 +98,6 @@ export const pageQuery = graphql`
         title
         date
         title
-        subtitle
         cover {
           childImageSharp {
             resize(width: 800) {
