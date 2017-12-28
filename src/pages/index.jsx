@@ -24,12 +24,13 @@ export default class Index extends React.Component {
 
 export const pageQuery = graphql`
   query IndexQuery {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: ASC }) {
+    allMarkdownRemark(sort: { fields: [fileAbsolutePath], order: ASC }) {
       edges {
         node {
           fields {
             slug
           }
+          fileAbsolutePath
           frontmatter {
             title
             cover {
