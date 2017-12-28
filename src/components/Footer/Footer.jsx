@@ -4,11 +4,7 @@ import config from '../../../config/SiteConfig'
 import styles from './Footer.module.scss'
 
 export default class Footer extends React.Component {
-	render() {
-		return (
-			<footer className={styles.footer}>
-				{config.copyright}
-			</footer>
-		)
-	}
+  render() {
+    return <footer className={styles.footer}>{config.copyright}</footer>
+  }
 }
