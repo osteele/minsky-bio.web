@@ -5,23 +5,19 @@ import React from 'react'
 import styles from './ProjectListing.module.scss'
 
 export default class ProjectListing extends React.PureComponent {
-	getList() {
-		const List = []
-		this.props.projectEdges.forEach(projectEdge => {
-			List.push({
-				path: projectEdge.node.fields.slug,
-				cover: projectEdge.node.frontmatter.cover.childImageSharp.sizes,
-				title: projectEdge.node.frontmatter.title,
-				imageURL: projectEdge.node.frontmatter.cover.childImageSharp.sizes.src,
-			})
-		})
-		return List
+	getArticles() {
+		return this.props.projectEdges.map(({ node }) => ({
+			path: node.fields.slug,
+			cover: node.frontmatter.cover.childImageSharp.sizes,
+			title: node.frontmatter.title,
+			imageURL: node.frontmatter.cover.childImageSharp.sizes.src,
+		}))
 	}
 	render() {
-		const List = this.getList()
+		const articles = this.getArticles()
 		return (
 			<div className={styles.base}>
-				{List.map(project => (
+				{articles.map(project => (
 					<div key={project.path} className={styles.wrapper}>
 						<div className={styles.content}>
 							<div className={styles.image}>
