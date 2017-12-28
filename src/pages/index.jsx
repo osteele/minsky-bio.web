@@ -7,14 +7,14 @@ import config from '../../config/SiteConfig'
 
 export default class Index extends React.Component {
   render() {
-    const projectEdges = this.props.data.allMarkdownRemark.edges
+    const articleEdges = this.props.data.allMarkdownRemark.edges
     return (
       <div className="container index-container">
         <Helmet>
           <title>{config.siteTitle}</title>
         </Helmet>
         <div>
-          <ArticleListing projectEdges={projectEdges} />
+          <ArticleListing articleEdges={articleEdges} />
         </div>
         <Footer />
       </div>

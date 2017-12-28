@@ -6,7 +6,7 @@ import styles from './ArticleListing.module.scss'
 
 export default class ArticleListing extends React.PureComponent {
 	getArticles() {
-		return this.props.projectEdges.map(({ node }) => ({
+		return this.props.articleEdges.map(({ node }) => ({
 			path: node.fields.slug,
 			cover: node.frontmatter.cover.childImageSharp.sizes,
 			title: node.frontmatter.title,
@@ -17,18 +17,18 @@ export default class ArticleListing extends React.PureComponent {
 		const articles = this.getArticles()
 		return (
 			<div className={styles.base}>
-				{articles.map(project => (
-					<div key={project.path} className={styles.wrapper}>
+				{articles.map(article => (
+					<div key={article.path} className={styles.wrapper}>
 						<div className={styles.content}>
 							<div className={styles.image}>
-								<Img sizes={project.cover} />
+								<Img sizes={article.cover} />
 							</div>
 							<Link
-								to={project.path}
-								key={project.path}
+								to={article.path}
+								key={article.path}
 								className={styles.link}
 							>
-								<Palette image={project.imageURL}>
+								<Palette image={article.imageURL}>
 									{palette => (
 										<div
 											className={styles.overlay}
@@ -37,7 +37,7 @@ export default class ArticleListing extends React.PureComponent {
 									)}
 								</Palette>
 								<h2>
-									{project.title}
+									{article.title}
 								</h2>
 							</Link>
 						</div>

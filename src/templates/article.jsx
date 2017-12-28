@@ -6,21 +6,21 @@ import Palette from 'react-palette'
 import React from 'react'
 import config from '../../config/SiteConfig'
 import format from 'date-fns/format'
-import styles from './project.module.scss'
+import styles from './article.module.scss'
 
-export default class Project extends React.Component {
+export default class Article extends React.Component {
 	render() {
 		const { slug } = this.props.pathContext
 		const postNode = this.props.data.markdownRemark
-		const project = postNode.frontmatter
-		const date = format(project.date, config.dateFormat)
-		const imageURL = project.cover.childImageSharp.resize.src
-		if (!project.id) {
-			project.id = slug
+		const article = postNode.frontmatter
+		const date = format(article.date, config.dateFormat)
+		const imageURL = article.cover.childImageSharp.resize.src
+		if (!article.id) {
+			article.id = slug
 		}
 		return (
-			<div className="container project-container">
-				<Helmet title={`${project.title} | ${config.siteTitle}`} />
+			<div className="container article-container">
+				<Helmet title={`${article.title} | ${config.siteTitle}`} />
 				<div className={styles.headerWrapper}>
 					<Palette image={imageURL}>
 						{palette => (
@@ -30,7 +30,7 @@ export default class Project extends React.Component {
 							>
 								<div className={styles.title}>
 									<Fade down duration={1250} tag="h1">
-										{project.title}
+										{article.title}
 									</Fade>
 								</div>
 								<div className={styles.information}>
@@ -44,7 +44,7 @@ export default class Project extends React.Component {
 											delay={500}
 											className={styles.bottom}
 										>
-											{project.title}
+											{article.title}
 										</Fade>
 									</div>
 									<div className={styles.infoBlock}>
@@ -70,7 +70,7 @@ export default class Project extends React.Component {
 											delay={500}
 											className={styles.bottom}
 										>
-											{project.subtitle}
+											{article.subtitle}
 										</Fade>
 									</div>
 								</div>
@@ -91,7 +91,7 @@ export default class Project extends React.Component {
 }
 
 export const pageQuery = graphql`
-  query ProjectPostBySlug($slug: String!) {
+  query ArticlePostBySlug($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {

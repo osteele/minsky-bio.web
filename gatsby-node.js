@@ -7,13 +7,13 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
 	if (node.internal.type === 'MarkdownRemark') {
 		if (
 			Object.prototype.hasOwnProperty.call(node, 'frontmatter') &&
-      Object.prototype.hasOwnProperty.call(node.frontmatter, 'slug')
+			Object.prototype.hasOwnProperty.call(node.frontmatter, 'slug')
 		) {
 			slug = `/${_.kebabCase(node.frontmatter.slug)}`
 		}
 		if (
 			Object.prototype.hasOwnProperty.call(node, 'frontmatter') &&
-      Object.prototype.hasOwnProperty.call(node.frontmatter, 'title')
+			Object.prototype.hasOwnProperty.call(node.frontmatter, 'title')
 		) {
 			slug = `/${_.kebabCase(node.frontmatter.title)}`
 		}
@@ -25,12 +25,12 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
 	const { createPage } = boundActionCreators
 
 	return new Promise((resolve, reject) => {
-		const projectPage = path.resolve('src/templates/project.jsx')
+		const articlePage = path.resolve('src/templates/article.jsx')
 		resolve(
 			graphql(
 				`
         {
-          projects: allMarkdownRemark {
+          articles: allMarkdownRemark {
             edges {
               node {
                 fields {
@@ -48,10 +48,10 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
 					reject(result.errors)
 				}
 
-				result.data.projects.edges.forEach(edge => {
+				result.data.articles.edges.forEach(edge => {
 					createPage({
 						path: edge.node.fields.slug,
-						component: projectPage,
+						component: articlePage,
 						context: {
 							slug: edge.node.fields.slug,
 						}
