@@ -11,6 +11,12 @@ Essays by and about Marvin Minsky.
 
 `yarn dev`
 
+## Alternate setup using Docker
+
+Setup: Install docker from the [web site](https://docs.docker.com/engine/installation/) or via `cask install docker`.
+
+Run: `docker-compose` and then visit <http://localhost:8000>.
+
 ## Adding a new article
 
 * Create a new folder in `content/articles/n. Title`. It will be displayed in the order n. The "Title" is just for you to recognize it.
@@ -21,6 +27,8 @@ Essays by and about Marvin Minsky.
 ## Deploying
 
 `yarn deploy`
+
+(TODO: Deployment w/ docker.)
 
 ## Automatic Colors
 
