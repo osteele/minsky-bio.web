@@ -3,6 +3,7 @@
   "description": "Marvin Minsky essays",
   "version": "1.0.0",
   "author": "Margaret Minsky <marg@media.mit.edu>",
+  "license": "UNLICENSED",
   "repository": {
     "url": "https://github.com/osteele/mminsky.website",
     "type": "git"
@@ -42,7 +43,7 @@
     "dev": "gatsby develop -o",
     "deploy": "yarn build && netlify deploy",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write src/**/**/*.jsx",
-    "lint:js": "eslint --ext .jsx --ignore-pattern public,static ."
+    "lint": "eslint --ext .jsx --ignore-pattern public,static ."
   },
   "devDependencies": {
     "autoprefixer": "^7.2.3",
