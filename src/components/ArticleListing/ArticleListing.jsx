@@ -2,9 +2,9 @@ import Img from 'gatsby-image'
 import Link from 'gatsby-link'
 import Palette from 'react-palette'
 import React from 'react'
-import styles from './ProjectListing.module.scss'
+import styles from './ArticleListing.module.scss'
 
-export default class ProjectListing extends React.PureComponent {
+export default class ArticleListing extends React.PureComponent {
 	getArticles() {
 		return this.props.projectEdges.map(({ node }) => ({
 			path: node.fields.slug,

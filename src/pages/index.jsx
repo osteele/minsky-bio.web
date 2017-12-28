@@ -1,7 +1,7 @@
+import ArticleListing from '../components/ArticleListing/ArticleListing'
 import Footer from '../components/Footer/Footer'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
-import ProjectListing from '../components/ProjectListing/ProjectListing'
 import React from 'react'
 import config from '../../config/SiteConfig'
 
@@ -14,7 +14,7 @@ export default class Index extends React.Component {
           <title>{config.siteTitle}</title>
         </Helmet>
         <div>
-          <ProjectListing projectEdges={projectEdges} />
+          <ArticleListing projectEdges={projectEdges} />
         </div>
         <Footer />
       </div>
