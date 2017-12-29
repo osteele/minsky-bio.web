@@ -6,11 +6,12 @@ import styles from './ArticleListing.module.scss'
 
 export default class ArticleListing extends React.PureComponent {
   getArticles() {
-    return this.props.articleEdges.map(({ node }) => ({
-      path: node.fields.slug,
-      cover: node.frontmatter.cover.childImageSharp.sizes,
-      title: node.frontmatter.title,
-      imageURL: node.frontmatter.cover.childImageSharp.sizes.src,
+    return this.props.articleEdges.map(({ node: { fields, frontmatter } }) => ({
+      path: fields.slug,
+      chapterNumber: fields.chapterNumber,
+      cover: frontmatter.cover.childImageSharp.sizes,
+      title: frontmatter.title,
+      imageURL: frontmatter.cover.childImageSharp.sizes.src,
     }))
   }
   render() {
@@ -36,7 +37,7 @@ export default class ArticleListing extends React.PureComponent {
                     />
                   )}
                 </Palette>
-                <h2>{article.title}</h2>
+                <h2>{article.chapterNumber}. {article.title}</h2>
               </Link>
             </div>
           </div>
