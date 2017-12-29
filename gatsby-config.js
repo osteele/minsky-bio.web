@@ -37,9 +37,8 @@ module.exports = {
 							rel: 'nofollow noopener noreferrer'
 						}
 					},
-					{
-						resolve: 'gatsby-remark-responsive-iframe'
-					},
+					'gatsby-remark-responsive-iframe',
+					'gatsby-remark-smartypants'
 				]
 			}
 		},

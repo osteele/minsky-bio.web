@@ -31,7 +31,7 @@ Communication, like humor and the creative process, is ultimately born from a so
 
 While the Voyagers serve as interstellar time-capsules of human knowledge and culture, “CETI Lab: HAYP at BAO” has explored a much closer time-capsule which is the unique environment of the Byurakan Astrophysical Observatory. Like the scientists of the ’71 CETI conference, our ’17 CETI Lab artists have immersed themselves in the unique environment of the Byurakan Astrophysical Observatory in order to explore its culture, history, and the multi-layered dynamics of a still vibrant community of thinkers in order to address the underlying question:
 
-> “Before we ask how aliens communicate, we ought to ask how humans can.” – Marvin Minsky[^11]
+> “Before we ask how aliens communicate, we ought to ask how humans can.” -- Marvin Minsky[^11]
 
 ## The Artworks of “CETI Lab: HAYP at BAO”
 
