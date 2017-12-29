@@ -7,35 +7,33 @@ Essays by and about Marvin Minsky.
 * Install [yarn](https://yarnpkg.com/en/). On macOS with [Homebrew](https://brew.sh): `brew install yarn`.
 * `yarn install`
 
-## Running the development server
+## Develop
 
 `yarn dev`
 
-## Alternate setup using Docker
-
-Setup: Install docker from the [web site](https://docs.docker.com/engine/installation/) or via `cask install docker`.
-
-Run: `docker-compose` and then visit <http://localhost:8000>.
-
-## Adding a new article
-
-* Create a new folder in `content/articles/n. Title`. It will be displayed in the order n. The "Title" is just for you to recognize it.
-* Create a new markdown file `content/articles/n. Title/index.md`. Copy the frontmatter from another article, and edit it to taste.
-* Add an image to the folder and reference it in your frontmatter.
-* Write your content below the frontmatter.
-
-## Deploying
+## Deploy
 
 `yarn deploy`
 
+## Alternate setup using Docker
+
+### Setup
+
+Install docker from the [web site](https://docs.docker.com/engine/installation/) or (on macOS) via `cask install docker`.
+
+### Develop
+
+1. `docker-compose`
+2. Visit <http://localhost:8000>.
+
 (TODO: Deployment w/ docker.)
 
-## Automatic Colors
+## Adding a new essay
 
-\[From the [gatsby-starter-portfolio-emma](https://github.com/LeKoArts/gatsby-starter-portfolio-emma) README.\]
-
-By default the hover overlay of the grid image and the header on the article page automatically choose its color by using [react-palette](https://github.com/leonardokl/react-palette).
-The plugin chooses the *vibrant* color of the image and applies it as the ``background-color`` for the hover overlay and header background. If you don't want that behavior you can delete the ``<Palette />`` component both from ``pages/index.jsx`` and ``templates/article.jsx``.
+* Create a new folder in `content/essays/n. Title`. It will be displayed in the order n. The "Title" is just for you to recognize it.
+* Create a new markdown file `content/essays/n. Title/index.md`. Copy the frontmatter from another article, and edit it to taste.
+* Add an image to the folder and reference it in your frontmatter.
+* Write your content below the frontmatter.
 
 ## Credits
 
