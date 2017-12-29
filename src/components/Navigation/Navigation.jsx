@@ -98,13 +98,6 @@ export default class Navigation extends Component {
               >
                 About
               </Link>
-              <Link
-                to="/contact"
-                activeClassName="active"
-                onClick={() => this.closeMenu()}
-              >
-                Contact
-              </Link>
               <div className={styles.mobileNavSocialMedia}>
                 <a
                   href="https://www.instagram.com/lekoarts.de"
