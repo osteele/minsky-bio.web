@@ -17,7 +17,7 @@ That’s what I do—form ideas, push them on other people, and find other peopl
 
 While discussing this with the Emperor, part of my mind turned back to the spring of 1945, when I was finishing boot camp in the United States Navy, and looking forward to being shipped out, perhaps to die on some Pacific Island in that war against that Emperor’s armies.  However, on [date] and [date] the atomic bobm was deplyed against two Japanese cities and the war ended in a matter of A FEW DAYS.  Naturally, when I hear others discussing the ethical morality of that action, I find it hard to be impartial, or dispassionate about this.  I did not discuss this with the Emperor, however, and this was not so much because I felt it wouold be inappropriate, but because the topic of eels seemed so much more interesting.  In [xxx] I’ll return to my dislkike of discussions of ethics, but in short, I’ve found that usualy they simply do not make any sense.  They only reflect in complex ways, the shortsighted opinions of reltively nonreflective people.  [I should add that, like anyone else, I’m often forced to make deciions about which alternitive is more ‘good’ or more ‘right’—but I don’t like to pretend to deduce this from unexamined assumptions.  Instead, I simply compare the consequences of the alternatives, and decide which of them feels more comfortable.  If that doen’t work, I usually ask one of my children, who are always easuly accessible through email, and all of whom seem much better at this than I am.
 
-==========
+---
 
 <And because there were also three seismic scientists at the same Japan Prize dinner, from France, England, and the US.  Describe the social world of International Science.>
 
@@ -25,7 +25,7 @@ Well, I have a lot of stories to tell.  The trouble is, I'm not sure about all t
 
 (Yes, memory is tricky.  When you don't know, you guess -- but you don't know how you do this, where those guesses come from.  Or how the memories work in the first place.  In fact, that's my technical specialty -- making new theories about how memories work, and getting people to do experiments to see if those theories could be right.)
 
-—————
+---
 
 ## Minsky memory
 
@@ -42,4 +42,3 @@ I can't remember much of high school.   It is almost as though  I first became c
 
 Theory of re-writing new representations.
 
-————
