@@ -26,7 +26,7 @@ export default class Article extends React.Component {
 						{palette => (
 							<section
 								className={styles.header}
-								style={{ backgroundColor: palette.vibrant }}
+								style={{ backgroundColor: palette.muted }}
 							>
 								<div className={styles.title}>
 									<Fade down duration={1250} tag="h1">
