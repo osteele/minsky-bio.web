@@ -3,19 +3,22 @@ const _ = require('lodash')
 
 exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
 	const { createNodeField } = boundActionCreators
-	let slug
-	if (node.internal.type === 'MarkdownRemark') {
-		if (
-			Object.prototype.hasOwnProperty.call(node, 'frontmatter') &&
-			Object.prototype.hasOwnProperty.call(node.frontmatter, 'slug')
-		) {
-			slug = `/${_.kebabCase(node.frontmatter.slug)}`
+	if (
+		node.internal.type === 'MarkdownRemark' &&
+		Object.prototype.hasOwnProperty.call(node, 'frontmatter')
+	) {
+		const dirname = path.basename(path.dirname(node.fileAbsolutePath))
+		const m = dirname.match(/^(\d+(\.\d+)*)\.\+*(.+)/)
+		if (m) {
+			createNodeField({ node, name: 'chapterNumber', value: Number(m[1]) })
+			createNodeField({ node, name: 'chapterTitle', value: m[2] })
 		}
-		if (
-			Object.prototype.hasOwnProperty.call(node, 'frontmatter') &&
-			Object.prototype.hasOwnProperty.call(node.frontmatter, 'title')
-		) {
+		let slug
+		if (Object.prototype.hasOwnProperty.call(node.frontmatter, 'title')) {
 			slug = `/${_.kebabCase(node.frontmatter.title)}`
+		}
+		else if (Object.prototype.hasOwnProperty.call(node.frontmatter, 'slug')) {
+			slug = `/${_.kebabCase(node.frontmatter.slug)}`
 		}
 		createNodeField({ node, name: 'slug', value: slug })
 	}
@@ -36,6 +39,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
                 fields {
                   slug
                 }
+								fileAbsolutePath
               }
             }
           }
