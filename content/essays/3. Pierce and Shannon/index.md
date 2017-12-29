@@ -8,7 +8,7 @@ Marvin loved John Campbell.
 
 (From Backup of Topics!!!!):
 
-——
+---
 
 ## AI Adventure
 (This is abstract of IJCAI-91 Award Lecture0
@@ -28,19 +28,20 @@ enjoyed the fabulous company of the next wave -- the McCarthys,
 Newells, Simons, Solomonoffs, and most of those you see on the new
 AAAI fellows register.
 
-——
+---
 
-obit: 	I first encountered Asimov's thought  some 50 years ago. I was just beginning my teens and he was only in his early 20-- yet  he seemed centuries ahead.  I was entranced by his stories about space and time, but his ideas about robots  affected me most.  Surely, some day, we'd build robots that think --but how well would they think about what?  Would  logic work?  Surely yes, for some things, but not for some others. And what about commonsense, intuition, consciousness, emotion, and all the other mysteries of mind; how to build robots with those?  How, for that matter, do our brains do those things?  And after Isaac's story "Runaround" appeared in the March 1942 issue of Astounding, I never stopped thinking about how minds might work.  (In the same way, Robert A. Heinlein's 1940 novel "Waldo" had already turned me to thinking about the mechanical aspects of robotics.)  And for me these writers arrived just in time, for I had just exhausted the teachings of Jules Verne and H.G.Wells.   Why do I say "teaching"?  Because these thinkers instruct us in courageous ways to explore new ideas, to exercise the capacity to ask "what if" --  a vital function that tends to decline as most of us grow more competent and sensible.  As another such writer, Larry Niven, once explained, "our job is to keep on daydreaming for you."  And I was particularly  privileged to share the friendship of these great teachers, as well as of others -- including Arthur C. Clarke, Frederik Pohl, and Ted Sturgeon -- and even their great editor-writer John Campbell.
+obit: I first encountered Asimov's thought some 50 years ago. I was just beginning my teens and he was only in his early 20 -- yet  he seemed centuries ahead.  I was entranced by his stories about space and time, but his ideas about robots  affected me most.  Surely, some day, we'd build robots that think -- but how well would they think about what?  Would logic work?  Surely yes, for some things, but not for some others. And what about commonsense, intuition, consciousness, emotion, and all the other mysteries of mind; how to build robots with those?  How, for that matter, do our brains do those things?  And after Isaac's story "Runaround" appeared in the March 1942 issue of Astounding, I never stopped thinking about how minds might work.  (In the same way, Robert A. Heinlein's 1940 novel "Waldo" had already turned me to thinking about the mechanical aspects of robotics.)  And for me these writers arrived just in time, for I had just exhausted the teachings of Jules Verne and H.G.Wells.   Why do I say "teaching"?  Because these thinkers instruct us in courageous ways to explore new ideas, to exercise the capacity to ask "what if" --  a vital function that tends to decline as most of us grow more competent and sensible.  As another such writer, Larry Niven, once explained, "our job is to keep on daydreaming for you."  And I was particularly  privileged to share the friendship of these great teachers, as well as of others -- including Arthur C. Clarke, Frederik Pohl, and Ted Sturgeon -- and even their great editor-writer John Campbell.
 
-
-———
+---
 
 Here's another one: I corrected some spelling.
 
+> ```
 > From: Marvin Minsky@MIT-AI
 > 01/17/82 00:25:30
 > Re: Dean Machine History
 > To: space at MIT-MC, Pournelle at MIT-MC, sf-lovers at MIT-MC
+> ```
 >
 > Shortly after the Dean “anti-gravity” drive was described in Astounding, John Campbell published a picture of it. I examined the picture with a lens and managed to read the brand name of the bathroom scale used to measure the loss of weight of the machine. My college roommate, Roland Silver, and I conjectured correctly that this scale had a "diode" in it that coupled the platform and the reading device. So we went to Sears Roebuck in Porter Square, Cambridge and bought that very scale.
 >
@@ -56,13 +57,16 @@ Here's another one: I corrected some spelling.
 >
 > -- Marvin
 >
-—————
 
+---
+
+> ```
 > Date: Sun, 4 Apr 93 00:21:31 -0500
 > From: Marvin Minsky <minsky@media.mit.edu>
 > To: vinge%saturn@sdsu.edu
 > In-Reply-To: Vernor Vinge's message of Sat, 03 Apr 93 21:08:42 -0800 <9304040508.AA23985@saturn.SDSU.EDU>
 > Subject: May I quote (actually paraphrase) you?
+> ```
 >
 > Wow.  That certainly was on the right track.  But amazing that I didn't propose placing atoms in the right place: that paragraph seems clearly to be proposing the use of extremely small but still somewhat conventional machine tools.
 >
@@ -74,12 +78,14 @@ Here's another one: I corrected some spelling.
 >
 > But I feel that even if we started now, and did, say, 3-5 years of frantic research, we'd end up ahead within 10 years.  Oh, well.frantic research, we'd end up ahead within 10 years.  Oh, well.
 
-——
+---
 
 H.G.Wells, etc.  Charlotte's books.
+
 Syrjala had full Astounding collection.
 
 Campbell's Thanksgivings. Seitz.
+
 del Rey / Hubbard / Pohl (ship) / Sheckley (AILAB)
 
 Buck Rogers.  David Gerrold at Universal, worked on TV series.   Author of When Harlie was One, and Tribbles.)
