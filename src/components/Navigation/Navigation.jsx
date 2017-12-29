@@ -52,31 +52,29 @@ export default class Navigation extends Component {
               </span>
             </div>
             <div className={styles.socialMedia}>
-              {null && (
-                <span>
-                  <a
-                    href="https://www.instagram.com/lekoarts.de"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaInstagram />
-                  </a>
-                  <a
-                    href="https://www.behance.net/lekoarts"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaBehance />
-                  </a>
-                  <a
-                    href="https://dribbble.com/LeKoArts"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaDribbble />
-                  </a>
-                </span>
-              )}
+              <span>
+                <a
+                  href="https://www.instagram.com/lekoarts.de"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaInstagram />
+                </a>
+                <a
+                  href="https://www.behance.net/lekoarts"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaBehance />
+                </a>
+                <a
+                  href="https://dribbble.com/LeKoArts"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaDribbble />
+                </a>
+              </span>
             </div>
           </Fade>
         </Headroom>
