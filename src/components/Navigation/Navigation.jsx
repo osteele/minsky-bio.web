@@ -37,9 +37,6 @@ export default class Navigation extends Component {
                 <Link to="/about" activeClassName="active">
                   About
                 </Link>
-                <Link to="/contact" activeClassName="active">
-                  Contact
-                </Link>
               </span>
             </nav>
             <div className={styles.name}>
