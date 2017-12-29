@@ -4,9 +4,9 @@ cover: "./Marvin Cover Photo New York Times Magazine Section 1990.jpg"
 date: "2017-09-21"
 ---
 
-HAYP POP UP GALLERY
+# HAYP POP UP GALLERY
 
-CETI LAB: ARTICULATING FRAMEWORKS FOR COMMUNICATION
+## CETI LAB: ARTICULATING FRAMEWORKS FOR COMMUNICATION
 
 September 21, 2017
 
@@ -18,24 +18,24 @@ Ambartsumian’s breakthrough transformed our understanding of the life of stars
 ![](CETI-participants.jpg)
 
 The 1971 CETI conference participants standing in front of the Byurakan Astrophysical Observatory’s conference hall.
- 
-It is within this context that HAYP Pop Up Gallery exhibits “CETI Lab: HAYP at BAO”, a multi-location collective exhibit that invites artists and scientists to imagine communicating with extraterrestrial intelligence. From September 16-27, 2017, the Byurakan Astrophysical Observatory (BAO) and the Herouni Radio-Optic Telescope in Orgov, Armenia will be transformed with site-specific installations by a diverse group of artists. 
+
+It is within this context that HAYP Pop Up Gallery exhibits “CETI Lab: HAYP at BAO”, a multi-location collective exhibit that invites artists and scientists to imagine communicating with extraterrestrial intelligence. From September 16-27, 2017, the Byurakan Astrophysical Observatory (BAO) and the Herouni Radio-Optic Telescope in Orgov, Armenia will be transformed with site-specific installations by a diverse group of artists.
 
 Like the scientists before them, the artists are concerned with frameworks for representing, expressing, and accessing information. Contextualizing a question is at the heart of all problem-solving, whether from an epistemological[^3], scientific, or curatorial perspective. It is for this reason that the 1971 CETI conference organizers shaped their discussion around the Drake Equation, a proposed formula for estimating the likelihood of communicating civilizations beyond our planet. While the equation was criticized for being more conjectural than scientific, its concern was not with accuracy but rather offered a framework for structuring the conversation[^4]. Similarly, the exhibition does not present one unified perspective, but rather proposes a structured set of contexts for approaching the question of communication. Through this diverse net of projects by writers, musicians, sculptors, photographers, and architects, we intend to portray a feeling for the paradigm of communication through an expressive language that uses metaphor as a formalism for understanding[^5].
 
-This brings us to our second concern, which is the question of language. Among the 1971 conference participants were linguists, anthropologists, and artificial intelligence experts who shared a common interest in finding the appropriate expressive language for representing cognitive theory. They discussed the possibilities of using binary, computer, or image-based languages, and struggled with the fact that language evokes ideas that extend beyond the subject at hand and refers to cultural perceptions that are not universal(6). Through metaphor, we hope to explore the conditions that frame communication and “help us understand references, reasons, motivation, and purpose not explicitly stated”(7). These conditions include self-consciousness, as seen in the installation by Sona Manukyan and the poetry of Arto Vaun. They include our awareness of our limitations in time and space as in the sculptural works of Manan Torosian and Samvel Saghatelian. In Vardan VHSound’s “Communication Machine”, the artist is concerned with representing not only knowledge, but also sensorial experience through an acoustic map of our environment. Artist Karen Mirzoyan explores the potentially dangerous consequences of successful communication through an apocalyptic “intergalactic war” series.
+This brings us to our second concern, which is the question of language. Among the 1971 conference participants were linguists, anthropologists, and artificial intelligence experts who shared a common interest in finding the appropriate expressive language for representing cognitive theory. They discussed the possibilities of using binary, computer, or image-based languages, and struggled with the fact that language evokes ideas that extend beyond the subject at hand and refers to cultural perceptions that are not universal[^6]. Through metaphor, we hope to explore the conditions that frame communication and “help us understand references, reasons, motivation, and purpose not explicitly stated”[^7]. These conditions include self-consciousness, as seen in the installation by Sona Manukyan and the poetry of Arto Vaun. They include our awareness of our limitations in time and space as in the sculptural works of Manan Torosian and Samvel Saghatelian. In Vardan VHSound’s “Communication Machine”, the artist is concerned with representing not only knowledge, but also sensorial experience through an acoustic map of our environment. Artist Karen Mirzoyan explores the potentially dangerous consequences of successful communication through an apocalyptic “intergalactic war” series.
 
-The exhibition is aware of the dangers of metaphor, which although a useful tool for understanding, is often scientifically inaccurate(8). But these inaccuracies, or rather absurdities of logic, are also at the core of this exhibition. Gaps in commonsense reasoning like trying to conceive of communicating with an “other” whose existence is still unknown, or like building a radio-optic telescope that was never actually used[^9]. Even sending devices into space as “time-capsules” of planet earth that may only reach another life-form long after human extinction on planet Earth. Science, like art, has been revolutionized by “absurd” ideas. While many of the exhibited works incorporate an element of humor, Lvis Mejía’s installation piece in Orgov subtly comments on the irony of a radio-optic telescope made to record sounds from space, by manipulating its shape in order to provide the observer with audio feedback defined by the observer him/herself.
+The exhibition is aware of the dangers of metaphor, which although a useful tool for understanding, is often scientifically inaccurate[^8]. But these inaccuracies, or rather absurdities of logic, are also at the core of this exhibition. Gaps in commonsense reasoning like trying to conceive of communicating with an “other” whose existence is still unknown, or like building a radio-optic telescope that was never actually used[^9]. Even sending devices into space as “time-capsules” of planet earth that may only reach another life-form long after human extinction on planet Earth. Science, like art, has been revolutionized by “absurd” ideas. While many of the exhibited works incorporate an element of humor, Lvis Mejía’s installation piece in Orgov subtly comments on the irony of a radio-optic telescope made to record sounds from space, by manipulating its shape in order to provide the observer with audio feedback defined by the observer him/herself.
 
 Communication, like humor and the creative process, is ultimately born from a social context. Although there are great differences in the ways that artists and scientists approach universal concerns of existence, self-consciousness, and life beyond our planet, we hope to draw parallels on our collective interest for understanding and creatively manipulating our human limitations[^10].
 
-While the Voyagers serve as interstellar time-capsules of human knowledge and culture, “CETI Lab: HAYP at BAO” has explored a much closer time-capsule which is the unique environment of the Byurakan Astrophysical Observatory. Like the scientists of the ’71 CETI conference, our ’17 CETI Lab artists have immersed themselves in the unique environment of the Byurakan Astrophysical Observatory in order to explore its culture, history, and the multi-layered dynamics of a still vibrant community of thinkers in order to address the underlying question:  
+While the Voyagers serve as interstellar time-capsules of human knowledge and culture, “CETI Lab: HAYP at BAO” has explored a much closer time-capsule which is the unique environment of the Byurakan Astrophysical Observatory. Like the scientists of the ’71 CETI conference, our ’17 CETI Lab artists have immersed themselves in the unique environment of the Byurakan Astrophysical Observatory in order to explore its culture, history, and the multi-layered dynamics of a still vibrant community of thinkers in order to address the underlying question:
 
-> “Before we ask how aliens communicate, we ought to ask how humans can.”  -Marvin Minsky[^11]
+> “Before we ask how aliens communicate, we ought to ask how humans can.” – Marvin Minsky[^11]
+
+## The Artworks of “CETI Lab: HAYP at BAO”
 
 ![](HAYP-at-BAO.jpg)
-
-The Artworks of “CETI Lab: HAYP at BAO”:
 
 Sona Manukyan, “Do they breathe?”. Photocredits: Zohrab Bauer
 
@@ -51,7 +51,7 @@ Sona Manukyan, “Do they breathe?”. Photocredits: Zohrab Bauer
 [^10]: For Mayakovsky, poetry (like all art) should be born from a “social command” (Mayakovsky, 18). There are interesting parallels between the creative process of Mayakovsky (as described in “How are verses made?”), and man’s challenge of communicating with extraterrestrial intelligence as defined by Minsky in his 1985 essay. Both identify material, space, and time as man’s constraints to be manipulated for effective understanding of our social environment and thinking processes.
 [^11]: Minsky, 1985. p 9. It’s interesting to note that Ambartsumian makes a similar reference in the 1971 conference catalogue recalling: “Professor Shklovsky was right when he told me, before we can solve the problem of communicating with extraterrestrial civilizations, it would be nice to establish contact regarding this question with other countries, and that’s exactly the aim of this conference.” Paraphrased from Russian original text in Каплана, p11.
 
-## WORKS CITED
+## Works Cited
 
 * Goldstein, I. and Papert, S. (1977), Artificial Intelligence, Language, and the Study of Knowledge*,†. Cognitive Science, 1: 84–123. doi:10.1207/s15516709cog0101_5
 * Mayakovsky, Vladimir. How are verses made?. Translation from original (1926). Cape ed., London, Grossman Publishers, 1970, reprinted 1974.
