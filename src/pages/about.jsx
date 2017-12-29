@@ -13,8 +13,15 @@ export default class About extends React.Component {
 				<Header>About</Header>
 				<Container text>
 					<p>
-						You have found my site-in-waiting. This site will host essays.
+						Essays by and about Marvin Minsky.
 					</p>
+
+					<h3>Credits</h3>
+					<ul>
+						<li>Text by Marvin Minsky, Margaret Minsky, and friends</li>
+						<li>Built with <a href="https://yarnpkg.com/en/">Gatsby</a></li>
+						<li>Theme adapted from <a href="https://github.com/LeKoArts/gatsby-starter-portfolio-emma">gatsby-starter-portfolio-emma</a> by <a href="https://www.lekoarts.de">LekoArts</a>.</li>
+					</ul>
 				</Container>
 				<Footer />
 			</div>
