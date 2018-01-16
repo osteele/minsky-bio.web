@@ -23,7 +23,7 @@ Install docker from the [web site](https://docs.docker.com/engine/installation/)
 
 ### Develop
 
-1. `docker-compose`
+1. `docker-compose up`
 2. Visit <http://localhost:8000>.
 
 (TODO: Deployment w/ docker.)
