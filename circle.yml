@@ -33,3 +33,10 @@ jobs:
           root: ./
           paths:
             - public
+
+deployment:
+  prod:
+    branch: master
+    commands:
+      - aws s3 sync public s3://minsky-bio.web/ --delete
+      - aws cloudfront create-invalidation --distribution-id E2954NPTLAM2GP --paths '/*'
