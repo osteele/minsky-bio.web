@@ -24,4 +24,4 @@ jobs:
           name: Deploy
           command: |
             aws s3 sync public s3://minsky-bio.web/ --delete
-            aws cloudfront create-invalidation --distribution-id E2954NPTLAM2GP --paths '/*'
+            aws cloudfront create-invalidation --distribution-id E2954NPTLAM2GP --paths '/*' --output text
