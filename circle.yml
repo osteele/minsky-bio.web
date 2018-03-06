@@ -11,6 +11,21 @@ jobs:
           - v2-dependencies-{{ checksum "package.json" }}
           - v2-dependencies-
       - run:
+          name: Install Python
+          command: |
+            sudo apt-get -y -qq update
+            sudo apt-get -y -qq install python3
+      - run:
+          name: Install pip
+          command: |
+            curl -O https://bootstrap.pypa.io/get-pip.py
+            python3 get-pip.py --user
+      - run:
+          name: Install AWS CLI
+          command: |
+            export PATH=~/.local/bin:$PATH
+            pip install -qq awscli --upgrade --user
+      - run:
           name: Install node dependencies
           command: yarn install
       - save_cache:
@@ -23,7 +38,6 @@ jobs:
       - deploy:
           name: Deploy
           command: |
-            sudo apt-get update && sudo apt-get install -y awscli
-            aws configure set preview.cloudfront true
+            export PATH=~/.local/bin:$PATH
             aws s3 sync public s3://minsky-bio.web/ --delete
             aws cloudfront create-invalidation --distribution-id E2954NPTLAM2GP --paths '/*'
