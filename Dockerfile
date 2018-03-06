@@ -1,5 +1,4 @@
 FROM node:9.3.0
-MAINTAINER Oliver Steele <steele@osteele.com>
 
 ADD package.json yarn.lock /tmp/
 RUN cd /tmp && yarn install

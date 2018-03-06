@@ -17,18 +17,16 @@ Essays by and about Marvin Minsky.
 
 ## Alternate setup using Docker
 
-### Setup
+### Setup with Docker
 
 Install docker from the [web site](https://docs.docker.com/engine/installation/) or (on macOS) via `cask install docker`.
 
-### Develop
+### Develop with Docker
 
 1. `docker-compose up`
 2. Visit <http://localhost:8000>.
 
-(TODO: Deployment w/ docker.)
-
-### CI
+## CI
 
 Create a Docker image for Circle CI:
 
