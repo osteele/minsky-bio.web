@@ -18,20 +18,20 @@ jobs:
           - v1-dependencies-{{ checksum "package.json" }}
           - v1-dependencies-
 
-      - run: yarn install
+      - run:
+          name: Install node dependencies
+          command: yarn install
 
       - save_cache:
+          key: v1-dependencies-{{ checksum "package.json" }}
           paths:
             - node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}
 
       - run:
-          name: Build site
+          name: Build
           command: yarn build
 
-deployment:
-  production:
-    branch: master
-    commands:
-      - aws s3 sync public s3://minsky-bio.web/ --delete
-      - aws cloudfront create-invalidation --distribution-id E2954NPTLAM2GP --paths '/*'
+      - deploy:
+          command: |
+            aws s3 sync public s3://minsky-bio.web/ --delete
+            aws cloudfront create-invalidation --distribution-id E2954NPTLAM2GP --paths '/*'
