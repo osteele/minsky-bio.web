@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 RUN ln -s /tmp/node_modules .
 ENV PATH="/app/node_modules/.bin:${PATH}"
-ENV VIPS_WARNING=1
+ENV VIPS_WARNING=0
 
 ENTRYPOINT ["gatsby"]
 CMD ["develop"]

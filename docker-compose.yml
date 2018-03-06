@@ -3,14 +3,12 @@ version: "2.1"
 services:
   gatsby:
       build: .
-      command: gatsby develop
       ports:
         - 8000:8000
       volumes:
-          # - .:/app/
-          - ./config:/app/config
-          - ./content:/app/content
-          - ./src:/app/src
-          - ./static:/app/static
+        - ./config:/app/config
+        - ./content:/app/content
+        - ./src:/app/src
+        - ./static:/app/static
       entrypoint: ["sh", "-c"]
       command: ["gatsby develop -H 0.0.0.0"]
