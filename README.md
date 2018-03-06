@@ -28,6 +28,16 @@ Install docker from the [web site](https://docs.docker.com/engine/installation/)
 
 (TODO: Deployment w/ docker.)
 
+### CI
+
+Create a Docker image for Circle CI:
+
+```bash
+tag=0.0.1
+docker build -t osteele/circleci-node:$tag circleci/images/primary
+docker login osteele/circleci-node:$tag
+```
+
 ## Adding a new essay
 
 * Create a new folder in `content/essays/n. Title`. It will be displayed in the order n. The "Title" is just for you to recognize it.
