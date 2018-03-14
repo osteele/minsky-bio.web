@@ -4,6 +4,20 @@ cover: "./Marvin Cover Photo New York Times Magazine Section 1990.jpg"
 date: "2017-09-21"
 ---
 
+
+
+# INTELLIGENT LIFE IN THE UNIVERSE
+
+put picture of book cover here
+
+put picture of me at Byurakan fountain
+
+
+
+
+
+
+
 # HAYP POP UP GALLERY
 
 ## CETI LAB: ARTICULATING FRAMEWORKS FOR COMMUNICATION
